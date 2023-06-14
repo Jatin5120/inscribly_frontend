@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:inscribly/models/models.dart';
 import 'package:inscribly/res/res.dart';
 import 'package:inscribly/utilities/utilities.dart';
+import 'package:lottie/lottie.dart';
 
 class OnboardingPage extends StatelessWidget {
   const OnboardingPage(
@@ -38,6 +39,8 @@ class OnboardingPage extends StatelessWidget {
               onboarding.subtitle,
               style: context.titleLarge,
             ),
+            const Spacer(),
+            Lottie.asset(onboarding.asset),
             const Spacer(),
             Text(
               onboarding.description,

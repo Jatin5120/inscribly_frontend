@@ -41,6 +41,7 @@ dependencies:
   google_fonts: ^4.0.4
   hive_flutter: ^1.1.0
   http: ^0.13.6
+  lottie: ^2.4.0
   objectbox: ^1.7.2
   objectbox_flutter_libs: any
   path_provider: ^2.0.15
@@ -69,6 +70,7 @@ flutter:
   assets:
     - assets/images/
     - assets/icons/
+    - assets/animations/
   #   - images/a_dot_ham.jpeg
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware

@@ -3,6 +3,7 @@ class AssetsConstants {
 
   static const String _iconBase = 'assets/icons';
   static const String _imageBase = 'assets/images';
+  static const String _animationBase = 'assets/animations';
 
   static const String icon = '$_iconBase/icon.png';
   static const String iconWhite = '$_iconBase/icon-white.png';
@@ -18,4 +19,8 @@ class AssetsConstants {
   static const String nameWhite = '$_iconBase/name-white.png';
   static const String nameSvg = '$_iconBase/name.svg';
   static const String nameWhiteSvg = '$_iconBase/name-white.svg';
+
+  static const String creativeAnimation = '$_animationBase/creative.json';
+  static const String collaborateAnimation = '$_animationBase/collaborate.json';
+  static const String diaryAnimation = '$_animationBase/diary.json';
 }

@@ -17,6 +17,7 @@ class OnboardingController extends GetxController {
       subtitle: 'Unleash Your Creativity',
       description:
           'Share your thoughts, songs, quotes, and more. Express yourself, connect with like-minded individuals, and inspire others with your unique voice.',
+      asset: AssetsConstants.creativeAnimation,
     ),
     const OnboardingModel(
       title: 'Share ',
@@ -24,6 +25,7 @@ class OnboardingController extends GetxController {
       subtitle: 'Connect and Collaborate',
       description:
           'Join a community of passionate individuals. Share your creative works, collaborate on projects, and engage in conversations that fuel up your imagination.',
+      asset: AssetsConstants.collaborateAnimation,
     ),
     const OnboardingModel(
       title: 'Reflect and ',
@@ -31,6 +33,7 @@ class OnboardingController extends GetxController {
       subtitle: 'Your Personal Diary',
       description:
           'Capture your thoughts, experiences, and personal growth. Use ${AppStrings.name}\'s daily diary feature as your personal space for reflection and self-discovery.',
+      asset: AssetsConstants.diaryAnimation,
     ),
   ];
 
